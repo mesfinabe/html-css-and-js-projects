@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: cornflowerblue;   
+}
+div {
+    background-color: blue;
+    
+}
+div .header { 
+    display: flex;
+    align-items: center;
+    
+}
+
+.back {
+    margin: 25px;
+    padding: 10px;
+    background-color: aqua;
+    color: wheat;
+    justify-content: space-between;
+}
+.back .backoff {
+    padding: 5px;;
+    background-color: black;
+    color: white;
+    
+}
